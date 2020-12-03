@@ -63,7 +63,7 @@ public class ArticlePan extends javax.swing.JPanel {
         jLabel2.setText("Prix Unitaire");
 
         ajoutBtnart.setBackground(new java.awt.Color(0, 51, 153));
-        ajoutBtnart.setText("Enregistrer");
+        ajoutBtnart.setText("Ajouter");
         ajoutBtnart.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ajoutBtnartActionPerformed(evt);
@@ -121,7 +121,7 @@ public class ArticlePan extends javax.swing.JPanel {
                 .addComponent(suppBtnart, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(5, 5, 5)
                 .addComponent(anBtnart, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(165, Short.MAX_VALUE))
+                .addContainerGap(163, Short.MAX_VALUE))
         );
 
         jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(""));

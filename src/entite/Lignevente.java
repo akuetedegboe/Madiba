@@ -120,7 +120,7 @@ public class Lignevente extends Entitie implements Serializable {
 
     @Override
     public String toString() {
-        return "entite.Lignevente[ id=" + id + " ]";
+        return articleId.getLibelle()+"-"+prixtotal;
     }
     
 }

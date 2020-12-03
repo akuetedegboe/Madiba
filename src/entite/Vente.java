@@ -6,6 +6,7 @@
 package entite;
 
 import java.io.Serializable;
+import java.text.SimpleDateFormat;
 import java.util.Collection;
 import java.util.Date;
 import javax.persistence.Basic;
@@ -128,7 +129,10 @@ public class Vente extends Entitie implements Serializable {
 
     @Override
     public String toString() {
-        return "entite.Vente[ id=" + id + " ]";
+        return "Vente du "+toDate();
     }
-    
+    public String toDate() {
+        SimpleDateFormat df = new SimpleDateFormat("dd-MM-yyyy");  
+        return df.format(datevente);
+    }
 }

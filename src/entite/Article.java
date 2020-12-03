@@ -113,7 +113,7 @@ public class Article extends Entitie implements Serializable {
 
     @Override
     public String toString() {
-        return "entite.Article[ id=" + id + " ]";
+        return libelle;
     }
     
 }

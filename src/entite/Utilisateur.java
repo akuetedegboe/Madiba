@@ -149,7 +149,7 @@ public class Utilisateur extends Entitie implements Serializable {
 
     @Override
     public String toString() {
-        return "entite.Utilisateur[ id=" + id + " ]";
+        return nom+" - "+prenom;
     }
     
 }
